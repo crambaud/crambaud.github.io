@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+html {
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-image: linear-gradient(to top right, rgb(66, 77, 204), rgb(77, 78, 202), rgb(87, 78, 199), rgb(98, 79, 197), rgb(109, 80, 195), rgb(120, 80, 193), rgb(130, 81, 190), rgb(141, 81, 188), rgb(152, 82, 186), rgb(163, 83, 184), rgb(173, 83, 181), rgb(184, 84, 179));
+  background-repeat: no-repeat;
+  min-height:100%;
+  overflow-y: hidden;
+}
+
+nav {
+ height: 100%; /* Full-height: remove this if you want "auto" height */
+ width: 330px; /* Set the width of the sidebar */
+ position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+ z-index: 1; /* Stay on top */
+ top: 0; /* Stay at the top */
+ left: 0;
+ background-color: #3b438e;
+ opacity: .8;
+ overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+/* The navigation menu titles */
+nav .nav__title {
+ padding: 10px 8px 10px 0px;
+ margin-left: 25px;
+ margin-right: 25px;
+ margin-top: 40px;
+ text-decoration: none;
+ font-size: 20px;
+ color: #fff;
+ display: block;
+ border-bottom: 1px solid #fff;
+}
+
+/* The navigation menu links */
+nav .nav__link {
+ padding: 10px 8px 10px 0px;
+ margin-left: 25px;
+ margin-right: 25px;
+ text-decoration: none;
+ font-size: 18px;
+ color: #fff;
+ display: block;
+ transition: padding-left .2s ease-in-out;
+}
+
+/* When you mouse over the navigation links, change their color */
+nav .nav__link:hover {
+ color: #a6a6a6;
+ padding-left: 4px;
+ transition: all .2s ease-in-out;
+}
+
+/* Style page content */
+main {
+ margin-left: 330px; /* Same as the width of the sidebar */
+ padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+ .sidenav {padding-top: 15px;}
+ .sidenav a {font-size: 18px;}
+}
+
+/* Home page  */
+.home {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
+  color: #f1f1f1;
+}
+
+.profilepic {
+  border-radius: 50%;
+  max-width: 220px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.home > .home__title {
+	font-size: 3.5em;
+	font-weight: 600;
+}
+
+.home > .home__subtitle {
+	font-size: 1.8em;
+	margin: 1.5rem 0;
+	font-weight: 100;
+}
+
+.icons-social i {
+	padding: 10px 30px 10px 30px;
+  font-size: 3.5em;
+  color: #f1f1f1;
+}
