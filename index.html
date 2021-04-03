@@ -4,13 +4,19 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet">
-    <script src="script/include.js"></script>
     <title>Clément Rambaud - Home</title>
   </head>
 
   <body>
 
-    <div w3-include-html="nav.html"></div>
+    <nav class="sidenav">
+      <h1 class="nav__title">About Me</h1>
+        <a href="resume.html" class="nav__link">Resume</a>
+        <a href="experience.html" class="nav__link">Work Experience</a>
+      <h1 class="nav__title">My Projects</h1>
+        <a href="music.html" class="nav__link">Music</a>
+        <a href="photo.html" class="nav__link">Photography</a>
+    </nav>
 
     <main class="home">
       <div class="home_pp">
@@ -26,9 +32,6 @@
       </div>
     </main>
 
-    <script>
-      includeHTML();
-    </script>
   </body>
 
 </html>

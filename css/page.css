@@ -4,10 +4,7 @@
 
 html {
   font-family: 'IBM Plex Sans', sans-serif;
-  background-image: linear-gradient(to top right, rgb(66, 77, 204), rgb(77, 78, 202), rgb(87, 78, 199), rgb(98, 79, 197), rgb(109, 80, 195), rgb(120, 80, 193), rgb(130, 81, 190), rgb(141, 81, 188), rgb(152, 82, 186), rgb(163, 83, 184), rgb(173, 83, 181), rgb(184, 84, 179));
-  background-repeat: no-repeat;
   min-height:100%;
-  overflow-y: hidden;
 }
 
 main {
@@ -67,38 +64,21 @@ nav .nav__link:hover {
  .sidenav a {font-size: 18px;}
 }
 
-/* HOMEPAGE */
+/* RESUME */
 
-.home {
-	display: flex;
+.resume {
+  display: flex;
 	flex-direction: column;
 	min-height: 100vh;
 	justify-content: center;
-	padding: 0 30px;
+	padding: 0 100px;
 	text-align: center;
-  color: #fff;
 }
 
-.profilepic {
-  border-radius: 50%;
-  max-width: 220px;
-  height: auto;
-  margin-bottom: 20px;
-}
-
-.home > .home__title {
-	font-size: 3.5em;
-	font-weight: 600;
-}
-
-.home > .home__subtitle {
-	font-size: 1.8em;
-	margin: 1.5rem 0;
-	font-weight: 100;
-}
-
-.icons-social i {
-	padding: 10px 30px 10px 30px;
-  font-size: 3.5em;
-  color: #fff;
+.music {
+  display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	padding: 30px 30px;
+	text-align: center;
 }
