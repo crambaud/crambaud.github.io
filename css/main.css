@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 
+/* GENERAL */
+
 html {
   font-family: 'IBM Plex Sans', sans-serif;
   background-image: linear-gradient(to top right, rgb(66, 77, 204), rgb(77, 78, 202), rgb(87, 78, 199), rgb(98, 79, 197), rgb(109, 80, 195), rgb(120, 80, 193), rgb(130, 81, 190), rgb(141, 81, 188), rgb(152, 82, 186), rgb(163, 83, 184), rgb(173, 83, 181), rgb(184, 84, 179));
@@ -7,6 +9,13 @@ html {
   min-height:100%;
   overflow-y: hidden;
 }
+
+main {
+ margin-left: 330px; /* Same as the width of the sidebar */
+ padding: 0px 10px;
+}
+
+/* NAVIGATION */
 
 nav {
  height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -20,7 +29,6 @@ nav {
  overflow-x: hidden; /* Disable horizontal scroll */
 }
 
-/* The navigation menu titles */
 nav .nav__title {
  padding: 10px 8px 10px 0px;
  margin-left: 25px;
@@ -33,7 +41,6 @@ nav .nav__title {
  border-bottom: 1px solid #fff;
 }
 
-/* The navigation menu links */
 nav .nav__link {
  padding: 10px 8px 10px 0px;
  margin-left: 25px;
@@ -45,17 +52,10 @@ nav .nav__link {
  transition: padding-left .2s ease-in-out;
 }
 
-/* When you mouse over the navigation links, change their color */
 nav .nav__link:hover {
  color: #a6a6a6;
  padding-left: 4px;
  transition: all .2s ease-in-out;
-}
-
-/* Style page content */
-main {
- margin-left: 330px; /* Same as the width of the sidebar */
- padding: 0px 10px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
@@ -64,7 +64,8 @@ main {
  .sidenav a {font-size: 18px;}
 }
 
-/* Home page  */
+/* HOMEPAGE  */
+
 .home {
 	display: flex;
 	flex-direction: column;
@@ -72,7 +73,7 @@ main {
 	justify-content: center;
 	padding: 0 30px;
 	text-align: center;
-  color: #f1f1f1;
+  color: #fff;
 }
 
 .profilepic {
@@ -96,5 +97,7 @@ main {
 .icons-social i {
 	padding: 10px 30px 10px 30px;
   font-size: 3.5em;
-  color: #f1f1f1;
+  color: #fff;
 }
+
+/* RESUME */
