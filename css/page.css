@@ -12,6 +12,11 @@ main {
  padding: 0px 10px;
 }
 
+.page--title {
+  border-bottom: 1px solid black;
+  padding: 10px 0;
+}
+
 /* NAVIGATION */
 
 nav {
@@ -81,4 +86,62 @@ nav .nav__link:hover {
 	min-height: 100vh;
 	padding: 30px 30px;
 	text-align: center;
+}
+
+/* Professional Experience */
+
+.work {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0 50px;
+}
+
+.list {
+  align-self: center;
+  margin-bottom: 3%;
+  width: 100%;
+}
+
+.list__title {
+  border-bottom: 2px solid $accent;
+  cursor: default;
+  padding: 0 1%;
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+.list-item {
+  border-bottom: 1px solid lightgray;
+  margin: 0 1em 1.5em;
+  padding: 0 .2em;
+}
+
+.list-item__header {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: .5em;
+}
+
+.list-item__header:hover {
+  color: $accent;
+}
+
+.list-item__content {
+  color: $text-light;
+  cursor: default;
+  font-size: .85em;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.icon--down {
+  transform: rotate(0deg);
+  transition: .4s transform ease-in-out;
+}
+
+.icon--up {
+  transform: rotate(180deg);
+  transition: .4s transform ease-in-out;
 }

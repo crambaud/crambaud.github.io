@@ -1,0 +1,8 @@
+<nav class="sidenav">
+  <h1 class="nav__title">About Me</h1>
+    <a href="resume.html" class="nav__link">Resume</a>
+    <a href="experience.html" class="nav__link">Work Experience</a>
+  <h1 class="nav__title">My Projects</h1>
+    <a href="music.html" class="nav__link">Music</a>
+    <a href="photo.html" class="nav__link">Photography</a>
+</nav>
